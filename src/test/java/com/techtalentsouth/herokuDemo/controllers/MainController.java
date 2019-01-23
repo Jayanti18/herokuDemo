@@ -13,7 +13,7 @@ public class MainController {
 	}
 	@GetMapping("/")
 	public ModelAndView indexMethod() {
-//	creating method. 
+//	creating method modelandview and  @Getmapping used to call index file 
 		ModelAndView mv = new ModelAndView("index");
 		return mv;
 	}
